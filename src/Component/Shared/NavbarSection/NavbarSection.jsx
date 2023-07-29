@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const NavbarSection = () => {
   const navitem = (
     <>
-      <li className="lg:text-xl">
+      <li className="lg:text-xl hover:bg-[#5356e7] px-4 py-2 rounded-xl">
         <Link>Skills</Link>
       </li>
-      <li className="lg:text-xl">
+      <li className="lg:text-xl hover:bg-[#6365e7] px-4 py-2 rounded-xl">
         <Link>Work experiences</Link>
       </li>
-      <li className="lg:text-xl">
+      <li className="lg:text-xl hover:bg-[#5e60df] px-4 py-2 rounded-xl">
         <Link>Open Source</Link>
       </li>
-      <li className="lg:text-xl">
+      <li className="lg:text-xl hover:bg-[#5b5dd4] px-4 py-2 rounded-xl">
         <Link>Contact</Link>
       </li>
     </>
@@ -26,7 +26,7 @@ const NavbarSection = () => {
         </div>
         <div>
           <div className=" hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className=" flex gap-10  px-1">
               {navitem}
             </ul>
           </div>
