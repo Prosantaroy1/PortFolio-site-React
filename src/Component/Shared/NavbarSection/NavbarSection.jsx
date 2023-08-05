@@ -5,16 +5,16 @@ const NavbarSection = () => {
   const navitem = (
     <>
       <li className="lg:text-xl hover:bg-[#5356e7] px-4 py-2 rounded-xl">
-        <Link>Skills</Link>
+        <Link to='/skill'>Skills</Link>
       </li>
       <li className="lg:text-xl hover:bg-[#6365e7] px-4 py-2 rounded-xl">
-        <Link>Work experiences</Link>
+        <Link to='/work'>Work experiences</Link>
       </li>
       <li className="lg:text-xl hover:bg-[#5e60df] px-4 py-2 rounded-xl">
-        <Link>Open Source</Link>
+        <Link to='/opensource'>Open Source</Link>
       </li>
       <li className="lg:text-xl hover:bg-[#5b5dd4] px-4 py-2 rounded-xl">
-        <Link>Contact</Link>
+        <Link to='/contact'>Contact</Link>
       </li>
     </>
   );
@@ -22,7 +22,9 @@ const NavbarSection = () => {
     <div className="w-full">
       <div className="navbar flex lg:flex-row justify-between px-6 text-white">
         <div className="flex">
-          <h4 className="text-2xl text-[#f3f3f7] font-sans font-semibold">Dev.Prosanta Roy</h4>
+          <Link to="/">
+            <h4 className="text-2xl text-[#f3f3f7] font-sans font-semibold">Dev.Prosanta Roy</h4>
+          </Link>
         </div>
         <div>
           <div className=" hidden lg:flex">
