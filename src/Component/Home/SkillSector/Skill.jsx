@@ -4,7 +4,7 @@ import {FaHtml5, FaCss3Alt, FaReact, FaGithub  } from 'react-icons/fa';
 
 const Skill = () => {
     return (
-        <div className='flex items-center justify-between mt-6 px-10 py-5 gap-3'>
+        <div className='flex flex-wrap lg:flex-nowrap  items-center justify-center  mt-6 px-10 py-8 gap-8'>
           {/*left side img */}
             <div>
                 <img src={imggif} alt="" className='w-[600px] h-[500px] rounded-2xl bg-[#050505]'/>

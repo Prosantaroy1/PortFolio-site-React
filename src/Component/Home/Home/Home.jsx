@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import Skill from "../SkillSector/Skill";
 import SkillParsen from "../SkillParsen/SkillParsen";
+import Education from "../Educationpage/Education";
 
 const Home = () => {
   return (
@@ -11,6 +12,8 @@ const Home = () => {
         <Skill/>
          {/*Skill parsen section */}
          <SkillParsen/>
+        {/*Education section */}
+        <Education/>
     </div>
   );
 };
