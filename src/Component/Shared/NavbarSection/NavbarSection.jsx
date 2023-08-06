@@ -8,7 +8,7 @@ const NavbarSection = () => {
         <Link to='/skill'>Skills</Link>
       </li>
       <li className="lg:text-xl hover:bg-[#6365e7] px-4 py-2 rounded-xl">
-        <Link to='/work'>Work experiences</Link>
+        <Link to='/project'>Projects</Link>
       </li>
       <li className="lg:text-xl hover:bg-[#5e60df] px-4 py-2 rounded-xl">
         <Link to='/opensource'>Open Source</Link>
