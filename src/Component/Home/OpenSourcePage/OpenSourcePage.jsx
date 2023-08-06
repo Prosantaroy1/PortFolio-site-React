@@ -8,7 +8,7 @@ const OpenSourcePage = () => {
         Open Source Projects
       </h3>
       <div className="flex flex-col w-full text-[#ffff] lg:flex-row gap-5">
-        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-lime-500 rounded-box place-items-center">
+        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-[#5a64e7] rounded-box place-items-center">
           <Link
             to="https://github.com/Prosantaroy1/The-Dragon-News-Project"
             target="_blank"
@@ -17,7 +17,7 @@ const OpenSourcePage = () => {
             News-Frontend Code
           </Link>
         </div>
-        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-lime-500 rounded-box place-items-center">
+        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-[#5a64e7] rounded-box place-items-center">
           <Link
             to="https://github.com/Prosantaroy1/News-dragon-server"
             target="_blank"
@@ -29,7 +29,7 @@ const OpenSourcePage = () => {
       </div>
       {/*part-2  */}
       <div className="flex pt-8 flex-col w-full text-[#ffff] lg:flex-row gap-5">
-        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-lime-500 rounded-box place-items-center">
+        <div className="grid flex-grow h-40 card shadow-lg  shadow-slate-800 hover:bg-[#5a64e7] rounded-box place-items-center">
           <Link
             to="https://github.com/Prosantaroy1/car-doctor-client"
             target="_blank"
@@ -38,7 +38,7 @@ const OpenSourcePage = () => {
             Car-Doctor-Frontend Code
           </Link>
         </div>
-        <div className="grid flex-grow h-40 card shadow-lg   shadow-slate-800 hover:bg-lime-500 rounded-box place-items-center">
+        <div className="grid flex-grow h-40 card shadow-lg   shadow-slate-800 hover:bg-[#5a64e7] rounded-box place-items-center">
           <Link
             to="https://github.com/Prosantaroy1/car-doctor-server"
             target="_blank"

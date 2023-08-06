@@ -4,6 +4,7 @@ import Home from "../Component/Home/Home/Home";
 import Skill from "../Component/Home/SkillSector/Skill";
 import Projectpage from "../Component/Home/ProjectPage/Projectpage";
 import OpenSourcePage from "../Component/Home/OpenSourcePage/OpenSourcePage";
+import Contactpage from "../Component/Home/Contactpage/Contactpage";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         {
           path: 'opensource',
           element: <OpenSourcePage/>
+        },
+        {
+          path: 'contact',
+          element: <Contactpage/>
         }
       ]
     },
