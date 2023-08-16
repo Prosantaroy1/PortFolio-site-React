@@ -6,9 +6,9 @@ import project3 from '../../../../public/download (3).jpg'
 
 const Projectpage = () => {
   return (
-    <div className="pt-8 px-10 text-[#fff] pb-5">
-      <h2 className="text-4xl text-[#ffff] font-bold pb-3">Big Projects</h2>
-      <p className="">
+    <div className="pt-8 px-3 lg:px-10 text-[#fff] pb-5">
+      <h2 className="text-4xl text-center text-[#ffff] font-bold pb-3">Big Projects</h2>
+      <p className="text-center">
         SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH
       </p>
       <div className="pt-8 flex items-center flex-wrap justify-center lg:justify-normal gap-5">

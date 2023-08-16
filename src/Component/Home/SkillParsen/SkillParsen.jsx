@@ -2,7 +2,7 @@ import React from 'react';
 
 const SkillParsen = () => {
     return (
-        <div className='mt-10 px-10 pb-4'>
+        <div className='mt-10 px-3 lg:px-10 pb-4'>
             <h2 className='text-4xl text-[#ffff] font-mono pb-5'>Proficiency</h2>
             <div className='mt-5 space-y-5 pb-5'>
                    {/*Frontend dev */}

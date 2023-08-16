@@ -4,7 +4,7 @@ import schoolImg from '../../../../public/images.jpg'
 
 const Education = () => {
     return (
-        <div className='pt-16 px-10'>
+        <div className='pt-16 px-3 lg:px-10'>
            <h2 className='text-4xl text-[#ffff] font-mono pb-5'>Education</h2>
            <div className='pt-4'>
                {/*Diploma thakurgaon */}

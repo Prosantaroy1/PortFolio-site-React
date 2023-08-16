@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { AiOutlineBars } from "react-icons/ai";
+
 
 const NavbarSection = () => {
   const navitem = (
@@ -20,7 +22,7 @@ const NavbarSection = () => {
   );
   return (
     <div className="w-full">
-      <div className="navbar flex lg:flex-row justify-between px-6 text-white">
+      <div className="navbar flex flex-row-reverse lg:flex-row justify-between px-6 text-white">
         <div className="flex">
           <Link to="/">
             <h4 className="text-2xl text-[#f3f3f7] font-sans font-semibold">Dev.Prosanta Roy</h4>
@@ -34,11 +36,11 @@ const NavbarSection = () => {
           </div>
           <div className="dropdown lg:hidden">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <h3>View</h3>
+              <h3><AiOutlineBars className="text-white text-2xl"/></h3>
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content mt-3 z-[1] p-1 space-y-4 text-center rounded-xl shadow bg-base-100 "
+              className="dropdown-content mt-3 z-[1] px-28 py-5 space-y-4 text-center rounded-xl shadow text-black bg-base-100 "
             >
               {navitem}
             </ul>
